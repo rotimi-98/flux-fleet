@@ -8,5 +8,5 @@ spec:
   interval: 1m0s
   ref:
     branch: main
-  url: https://github.com/rotimi-98/instavote-deploy.git
+  url: https://github.com/rotimi-98/instavote-deploy
 
