@@ -5,5 +5,5 @@ metadata:
   name: instavote-deploy
   namespace: instavote
 spec:
-  path: ./flux/base
+  path: ./flux/staging
 
