@@ -6,4 +6,10 @@ metadata:
   namespace: instavote
 spec:
   path: ./flux/staging
+  prune: false
+  serviceAccountName: instavote
+  targetNamespace: instavote
+  sourceRef:
+    kind: GitRepository
+    name: instavote-deploy  
 
